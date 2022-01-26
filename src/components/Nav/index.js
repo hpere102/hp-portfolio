@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
@@ -15,16 +15,16 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <Link to='/'>Home</Link>
+            <NavLink exact to='/' activeClassName="active">Home</NavLink>
           </li>
           <li className="mx-2">
-          <Link to='/work'>Work</Link>
+          <NavLink exact to='/work' activeClassName="active">Work</NavLink>
           </li>
           <li className="mx-2">
-          <Link to='/about'>About</Link>
+          <NavLink exact to='/about' activeClassName="active">About</NavLink>
           </li>
           <li className="mx-2">
-          <Link to='/contact'>Contact</Link>
+          <NavLink exact to='/contact' activeClassName="active">Contact</NavLink>
           </li>
         </ul>
       </nav>
