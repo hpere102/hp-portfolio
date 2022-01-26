@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Modal from '../Modal';
+import Nav from '../Nav';
 
 
 const Projects = ({ category }) => {
@@ -9,26 +10,31 @@ const Projects = ({ category }) => {
       name: 'Grocery aisle',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      language: 'Javascript'
     },
     {
       name: 'Grocery booth',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      language: 'Javascript'
     },
     {
       name: 'Building exterior',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      language: 'Javascript'
     },
     {
       name: 'Restaurant table',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      language: 'Javascript'
     },
     {
       name: 'Cafe interior',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      language: 'Javascript'
     }
   ]);
 
@@ -50,6 +56,7 @@ const Projects = ({ category }) => {
       )}
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
+        <div>
           <img
             src={require(`../../assets/small/${category}/${i}.jpg`)}
             alt={image.name}
@@ -57,7 +64,10 @@ const Projects = ({ category }) => {
             onClick={() => toggleModal(image, i)}
             key={image.name}
           />
+          <p className="image-text">{image.name} <br></br> {image.language} </p>
+       </div>
         ))}
+        
       </div>
     </div>
   );

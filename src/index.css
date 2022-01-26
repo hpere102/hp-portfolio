@@ -237,8 +237,13 @@ textarea {
 .img-thumbnail {
   width: auto;
   height: 300px;
-  margin-bottom: 50px;
   cursor: pointer;
+}
+
+.image-text {
+  margin-bottom: 70px;
+  position: relative;
+  left: 8px;
 }
 
 .modalBackdrop {
