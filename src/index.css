@@ -234,9 +234,17 @@ textarea {
   text-align: center;
 }
 
+.image-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
 .img-thumbnail {
-  width: auto;
-  height: 300px;
+  width: 400px;
+  height: 250px;
   cursor: pointer;
 }
 
@@ -244,6 +252,11 @@ textarea {
   margin-bottom: 70px;
   position: relative;
   left: 8px;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 100px;
 }
 
 .modalBackdrop {

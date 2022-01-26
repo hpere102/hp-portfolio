@@ -1,37 +1,36 @@
 import React, { useState } from 'react';
 import Modal from '../Modal';
-import Nav from '../Nav';
 
 
 const Projects = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Grocery aisle',
+      name: 'Budget Tracker',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
       language: 'Javascript'
     },
     {
-      name: 'Grocery booth',
+      name: 'Social Network API',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
       language: 'Javascript'
     },
     {
-      name: 'Building exterior',
+      name: 'Employee Database',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
       language: 'Javascript'
     },
     {
-      name: 'Restaurant table',
+      name: 'Weather Dashbaord',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
       language: 'Javascript'
     },
     {
-      name: 'Cafe interior',
+      name: 'Scheduler',
       category: 'commercial',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
       language: 'Javascript'
@@ -54,11 +53,11 @@ const Projects = ({ category }) => {
       {isModalOpen && (
         <Modal currentPhoto={currentPhoto} onClose={toggleModal} />
       )}
-      <div className="flex-row">
+      <div className="image-cont">
         {currentPhotos.map((image, i) => (
         <div>
           <img
-            src={require(`../../assets/small/${category}/${i}.jpg`)}
+            src={require(`../../assets/small/${category}/${i}.png`)}
             alt={image.name}
             className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}
