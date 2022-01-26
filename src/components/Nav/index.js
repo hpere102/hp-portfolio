@@ -15,16 +15,16 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <NavLink exact to='/' activeClassName="active">Home</NavLink>
+            <NavLink exact to='/' activeClassName="active" className="nav-links">Home</NavLink>
           </li>
           <li className="mx-2">
-          <NavLink exact to='/work' activeClassName="active">Work</NavLink>
+          <NavLink exact to='/work' activeClassName="active" className="nav-links">Work</NavLink>
           </li>
           <li className="mx-2">
-          <NavLink exact to='/about' activeClassName="active">About</NavLink>
+          <NavLink exact to='/about' activeClassName="active" className="nav-links">About</NavLink>
           </li>
           <li className="mx-2">
-          <NavLink exact to='/contact' activeClassName="active">Contact</NavLink>
+          <NavLink exact to='/contact' activeClassName="active" className="nav-links">Contact</NavLink>
           </li>
         </ul>
       </nav>

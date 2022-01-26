@@ -256,6 +256,10 @@ textarea {
   cursor: pointer;
 }
 
+.img-thumbnail:hover {
+  opacity: 80%;
+}
+
 .image-text {
   margin-bottom: 70px;
   position: relative;
@@ -265,6 +269,10 @@ textarea {
 .modal-buttons {
   display: flex;
   gap: 100px;
+}
+
+.modal-buttons button:hover {
+  opacity: 65%;
 }
 
 .modalBackdrop {
@@ -317,4 +325,8 @@ a {
 
 .active {
   color: var(--secondary);
+}
+
+.nav-links:hover {
+  opacity: 70%;
 }
