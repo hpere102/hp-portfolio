@@ -7,33 +7,38 @@ const Projects = ({ category }) => {
   const [photos] = useState([
     {
       name: 'Budget Tracker',
-      category: 'commercial',
+      category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript'
+      language: 'Javascript',
+      github: 'https://github.com/hpere102/budget-tracker'
     },
     {
       name: 'Social Network API',
-      category: 'commercial',
+      category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript'
+      language: 'Javascript',
+      github: 'https://github.com/hpere102/social-network-api'
     },
     {
       name: 'Employee Database',
-      category: 'commercial',
+      category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript'
+      language: 'Javascript',
+      github: 'https://github.com/hpere102/employee-tracker'
     },
     {
       name: 'Weather Dashbaord',
-      category: 'commercial',
+      category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript'
+      language: 'Javascript',
+      github: 'https://github.com/hpere102/weather-dashboard'
     },
     {
       name: 'Scheduler',
-      category: 'commercial',
+      category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript'
+      language: 'Javascript',
+      github: 'https://github.com/hpere102/work-day-scheduler'
     }
   ]);
 

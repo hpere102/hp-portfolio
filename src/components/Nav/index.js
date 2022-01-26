@@ -6,7 +6,7 @@ function Nav(props) {
   
 
   return (
-    <header className="flex-row px-1">
+    <header className="nav-bar">
      
       <h3>
           Hector Perez
