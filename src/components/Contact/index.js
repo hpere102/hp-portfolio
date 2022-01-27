@@ -15,13 +15,13 @@ function ContactForm() {
             console.log(isValid);
             // isValid conditional statement
             if (!isValid) {
-                setErrorMessage('Your email is invalid.');
+                setErrorMessage('email is invalid');
               } else {
                 setErrorMessage('');
               } 
           }  else {
             if (!e.target.value.length) {
-              setErrorMessage(`${e.target.name} is required.`);
+              setErrorMessage(`${e.target.name} is required`);
             } else {
               setErrorMessage('');
             }
@@ -42,7 +42,7 @@ function ContactForm() {
 
     return (
         <section>
-          <h1>Contact me</h1>
+          <h1>Contact Me</h1>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name">Name:</label>

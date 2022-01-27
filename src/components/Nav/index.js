@@ -8,9 +8,9 @@ function Nav(props) {
   return (
     <header className="nav-bar">
      
-      <h3>
+      <p>
           Hector Perez
-        </h3>
+        </p>
       
       <nav>
         <ul className="flex-row">
