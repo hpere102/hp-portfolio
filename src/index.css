@@ -190,6 +190,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  gap: 5px;
   position: relative;
   bottom: 7px;
   font-size: 3px;
@@ -349,10 +350,12 @@ a {
 
 .nav-links {
   
+  
 }
 
 .nav-links:hover {
-  opacity: 70%;
+  opacity: 100%;
+  background-color: rgba(118, 119, 116, 0.349);
 }
 
 
@@ -373,5 +376,6 @@ a {
   position: relative;
   top:1px;
   align-self: center;
+  font-size: 15px;
 }
 
