@@ -34,7 +34,7 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--light);
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 
 }
 
@@ -100,6 +100,7 @@ header {
 
 header a {
   color: var(--light);
+  font-weight: initial;
 }
 
 button {
@@ -169,6 +170,7 @@ nav  li {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 50px;
+  height: 51px;
 }
 
 textarea {
@@ -189,7 +191,8 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  bottom: 20px;
+  bottom: 7px;
+  font-size: 3px;
 }
 
 .space-between {
@@ -209,7 +212,7 @@ textarea {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
   display: flex;
-  font-size: 15px;
+  font-size: 12px;
   flex-direction: column;
 }
 
@@ -344,10 +347,14 @@ a {
   background-color: aliceblue;
 }
 
+.nav-links {
+  
+}
 
 .nav-links:hover {
   opacity: 70%;
 }
+
 
 .header-name {
   display: flex;
