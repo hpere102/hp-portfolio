@@ -34,7 +34,6 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--light);
-  color:var(--dark);
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
 }
@@ -91,11 +90,16 @@ a:hover {
 }
 
 header {
-  background: var(--light);
+  background: rgba(25, 39, 56, 0.897);
+  color: var(--light) ;
+  width: auto;
+  height: 60px;
+
+  
 }
 
 header a {
-  color: var(--dark);
+  color: var(--light);
 }
 
 button {
@@ -184,6 +188,8 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+  bottom: 20px;
 }
 
 .space-between {
@@ -202,6 +208,9 @@ textarea {
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
 }
 
 .my-1 {
@@ -331,7 +340,8 @@ a {
 }
 
 .active {
-  color: rgb(228, 145, 51);;
+  color: rgb(228, 145, 51);
+  background-color: aliceblue;
 }
 
 
@@ -342,12 +352,19 @@ a {
 .header-name {
   display: flex;
   gap: 6px;
-  align-self: center;
+ position: relative;
+ top: 7px;
 
 }
 
 .bi-geo-fill {
   color: rgb(228, 145, 51);
   font-size: 25px;
+}
+
+.bi-house-door, .bi-file-earmark-code, .bi-card-list, .bi-person{
+  position: relative;
+  top:1px;
+  align-self: center;
 }
 

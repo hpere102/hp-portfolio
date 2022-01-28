@@ -19,22 +19,36 @@ function Nav(props) {
       
       <nav>
         <ul className="flex-row">
-          <li className="mx-2">
-            <NavLink exact to='/' activeClassName="active" className="nav-links">Home</NavLink>
-            <i class="bi-house-door"></i>
+
+        
+        <NavLink exact to='/' activeClassName="active" className="nav-links">
+        <li className="mx-2">
+          <i class="bi-house-door"></i>
+                 Home
           </li>
-          <li className="mx-2">
-          <NavLink exact to='/work' activeClassName="active" className="nav-links">Work</NavLink>
+        </NavLink>
+
+        <NavLink exact to='/work' activeClassName="active" className="nav-links">
+        <li className="mx-2">
           <i class="bi-file-earmark-code"></i>
+                   Work 
           </li>
-          <li className="mx-2">
-          <NavLink exact to='/about' activeClassName="active" className="nav-links">About</NavLink>
+        </NavLink>
+          
+        <NavLink exact to='/about' activeClassName="active" className="nav-links">
+        <li className="mx-2">
           <i class="bi-card-list"></i>
+                    About
           </li>
-          <li className="mx-2">
-          <NavLink exact to='/contact' activeClassName="active" className="nav-links">Contact</NavLink>
-          <i class="bi-person-lines-fill"></i>
+        </NavLink>
+          
+        <NavLink exact to='/contact' activeClassName="active" className="nav-links">
+        <li className="mx-2">
+          <i class="bi-person"></i>
+                    Contact
           </li>
+        </NavLink> 
+          
         </ul>
       </nav>
     </header>
