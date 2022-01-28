@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
 import { capitalizeFirstLetter } from '../../utils/helpers';
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 
 function Nav(props) {
   
@@ -8,9 +10,12 @@ function Nav(props) {
   return (
     <header className="nav-bar">
      
-      <p>
+      <p class="header-name">
           Hector Perez
+          <i class="bi-geo-fill"></i>
         </p>
+        
+
       
       <nav>
         <ul className="flex-row">

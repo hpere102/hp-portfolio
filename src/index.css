@@ -159,7 +159,9 @@ nav  li {
 
 .nav-bar {
   display: flex;
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 50px;
@@ -334,4 +336,16 @@ a {
 
 .nav-links:hover {
   opacity: 70%;
+}
+
+.header-name {
+  display: flex;
+  gap: 6px;
+  align-self: center;
+
+}
+
+.bi-geo-fill {
+  color: rgb(228, 145, 51);
+  font-size: 25px;
 }
