@@ -12,7 +12,6 @@ function Nav(props) {
      
       <p class="header-name">
           Hector Perez
-          <i class="bi-geo-fill"></i>
         </p>
         
 
