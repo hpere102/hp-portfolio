@@ -156,12 +156,17 @@ li {
   list-style: none;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 nav a:hover {
   text-decoration: none;
 }
 
 nav  li {
   cursor: pointer;
+  
 }
 
 .nav-bar {
@@ -230,10 +235,13 @@ textarea {
 }
 
 .title-home {
-  margin-top: var(--spacing-five);
+  margin-top: 170px;
   margin-bottom: var(--spacing-five);
   margin-left: var(--spacing-left);
   margin-right: var(--spacing-right);
+  display: flex;
+  flex-direction: column;
+
 }
 
 .px-1 {
@@ -386,9 +394,89 @@ a {
 }
 
 .work-cont {
-  background-color: #8c54ff;
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-left: var(--spacing-left);
+  margin-right: var(--spacing-right);
   
+}
+
+.about-cont {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-left: var(--spacing-left);
+  margin-right: var(--spacing-right);
+
+  justify-content: center;
+  gap: 100px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.bio-title {
+  margin-left: var(--spacing-left);
+  margin-right: var(--spacing-right);
+}
+
+
+
+.cat-img {
+  height: 500px;
+}
+
+.contact-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: var(--spacing-left);
+  margin-right: var(--spacing-right);
+  margin-top: 160px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact-title {
+  margin-left: var(--spacing-left);
+  margin-right: var(--spacing-right);
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+ gap: 15px;
+}
+
+.social-media a {
+
+  font-size: 30px;
+}
+
+.bi-github {
+  color: #000000;
+}
+
+.bi-instagram {
+  color: #d82fb3;
+}
+
+.bi-linkedin {
+  color: rgb(72, 121, 224);
+}
+
+.bi-twitter {
+  color: rgb(50, 144, 233);
 }

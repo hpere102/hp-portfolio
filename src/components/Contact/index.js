@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState,  } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import "bootstrap-icons/font/bootstrap-icons.css";
+import { Link } from 'react-router-dom'
 
 
 function ContactForm() {
@@ -41,7 +43,22 @@ function ContactForm() {
       }
 
     return (
-        <section>
+        <section className="contact-cont">
+          <div className="contact-info">
+            <div className="contact-title">
+              <h1 id="about">Let's chat.<br></br> Reach out to me.</h1>
+              <hr class="my-4"></hr>
+              <p class="lead"></p>
+            </div>
+            <div className="social-media">
+            <a target="_blank" href="https://github.com/"><i class="bi-github"></i></a>
+            <a target="_blank" href="https://linkedin.com/in/hector-daniel-perez-631283179"><i class="bi-linkedin"></i></a>
+            <a target="_blank" href="https://instagram.com/"><i class="bi-instagram"></i></a>
+            <a target="_blank" href="https://twitter.com/"><i class="bi-twitter"></i></a>
+              </div>
+          </div>
+          
+          <div className="contact-form-cont">
           <h1>Contact Me</h1>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div>
@@ -63,6 +80,7 @@ function ContactForm() {
             </div>
             <button type="submit">Submit</button>
           </form>
+          </div>
         </section>
         );
     }
