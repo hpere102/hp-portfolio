@@ -435,7 +435,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  justify-content: space-between;
   margin-left: var(--spacing-left);
   margin-right: var(--spacing-right);
   margin-top: 160px;
@@ -451,6 +450,35 @@ a {
 .contact-title {
   margin-left: var(--spacing-left);
   margin-right: var(--spacing-right);
+}
+
+.contact-form-cont {
+  background-color: rgb(217, 240, 240);
+  padding: 30px;
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.message-area textarea {
+  height: 150px;
+  width: 450px;
+}
+
+.email-area input {
+  width: 450px;
+}
+
+.name-area input {
+  width: 450px;
 }
 
 .social-media {
@@ -479,4 +507,9 @@ a {
 
 .bi-twitter {
   color: rgb(50, 144, 233);
+}
+
+.btn-primary {
+  background-color: rgba(25, 39, 56, 0.897) !important;
+  border-color: rgba(25, 39, 56, 0.897) !important;
 }

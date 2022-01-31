@@ -1,6 +1,7 @@
 import React, { useState,  } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import "bootstrap-icons/font/bootstrap-icons.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom'
 
 
@@ -59,26 +60,26 @@ function ContactForm() {
           </div>
           
           <div className="contact-form-cont">
-          <h1>Contact Me</h1>
-          <form id="contact-form" onSubmit={handleSubmit}>
-            <div>
+          <h2>Send me a message 🚀</h2>
+          <form className="form-cont" id="contact-form" onSubmit={handleSubmit}>
+            <div className="name-area">
               <label htmlFor="name">Name:</label>
               <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
             </div>
-            <div>
+            <div className="email-area">
               <label htmlFor="email">Email address:</label>
               <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
             </div>
-            <div>
+            <div className="message-area">
               <label htmlFor="message">Message:</label>
-              <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+              <textarea name="message" defaultValue={message} onBlur={handleChange} rows="4" />
               {errorMessage && (
                 <div>
                  <p className="error-text">{errorMessage}</p>
                     </div>
                     )}
             </div>
-            <button type="submit">Submit</button>
+            <button  class="btn btn-primary btn-lg" href="/work" type="submit">Submit</button>
           </form>
           </div>
         </section>

@@ -9,7 +9,7 @@ function Home() {
   <h3 class="lead">Full stack developer based in Miami, Florida.</h3>
   <hr class="my-4"></hr>
   <p class="lead">
-    <a class="btn btn-primary btn-lg" href="/work" role="button">View Projects</a>
+    <a  class="btn btn-primary btn-lg" href="/work" role="button">View Projects</a>
   </p>
       </section>
     );
