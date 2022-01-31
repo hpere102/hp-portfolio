@@ -79,7 +79,7 @@ function ContactForm() {
                     </div>
                     )}
             </div>
-            <button  class="btn btn-primary btn-lg" href="/work" type="submit">Submit</button>
+            <button  class="btn btn-primary btn-lg" href="/work" type="submit">Send message</button>
           </form>
           </div>
         </section>

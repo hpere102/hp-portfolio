@@ -444,6 +444,7 @@ a {
   margin-left: var(--spacing-left);
   margin-right: var(--spacing-right);
   margin-top: 160px;
+  gap: 30px;
 }
 
 .contact-info {
