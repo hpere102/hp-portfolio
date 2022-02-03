@@ -4,6 +4,7 @@ import About from './components/About';
 import ContactForm from './components/Contact';
 import Home from './components/Home';
 import Work from './components/Work';
+import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Routes,
@@ -37,7 +38,8 @@ function App() {
         </Route>
         <Route exact path='/contact' element={<ContactForm/>}>
         </Route>    
-     </Routes>     
+     </Routes>  
+     <Footer />   
     </Router>
   );
 }

@@ -84,6 +84,7 @@ const Projects = ({ category }) => {
     }
   ]);
 
+
   const currentPhotos = photos.filter((photo) => photo.category === category);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
