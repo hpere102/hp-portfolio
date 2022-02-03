@@ -555,4 +555,16 @@ a {
 }
 
 
+.resume-cont {
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px;
 
+}
+
+.resume-cont button {
+  margin-top: 20px;
+  width: 200px;
+  align-self: center;
+  
+}

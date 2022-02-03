@@ -2,8 +2,6 @@ import React, { useState,  } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-import Resume from '../Resume';
 
 
 function ContactForm() {
@@ -12,7 +10,7 @@ function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
-    const [modalShow, setModalShow] = React.useState(false);
+   
 
     // useState added to when a letter is clicked
     function handleChange(e) {
@@ -61,18 +59,11 @@ function ContactForm() {
             <a target="_blank" href="https://twitter.com/"><i class="bi-twitter"></i></a>
             </div>
             <div className="resume-cont">
-              <h3>Want to view or download my resume?</h3>
-              
-              <Button variant="primary" onClick={() => setModalShow(true)}>
-              Launch vertically centered modal
-               </Button>
-
-            <Resume show={modalShow} onHide={() => setModalShow(false)} />
-        
-        
-    
-              
-            </div>
+              <h4>Want to view or download my resume?</h4>
+              <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                  Download
+            </button>
+              </div>
           </div>
           
           <div className="contact-form-cont">
