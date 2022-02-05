@@ -16,7 +16,10 @@ function Modal({ onClose, currentPhoto}) {
             type="button"
             onClick={(e) => {
               e.preventDefault();
-              window.location.href=github;
+               window.open(
+                github,
+                '_blank' 
+              );
                }}
                 > See project on GitHub</button>
         </div>

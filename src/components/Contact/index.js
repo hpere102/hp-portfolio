@@ -19,13 +19,13 @@ function ContactForm() {
             console.log(isValid);
             // isValid conditional statement
             if (!isValid) {
-                setErrorMessage('email is invalid');
+                setErrorMessage('*email is invalid');
               } else {
                 setErrorMessage('');
               } 
           }  else {
             if (!e.target.value.length) {
-              setErrorMessage(`${e.target.name} is required`);
+              setErrorMessage(`*${e.target.name} is required`);
             } else {
               setErrorMessage('');
             }
@@ -60,8 +60,8 @@ function ContactForm() {
             </div>
             <div className="resume-cont">
               <h4>Want to view or download my resume?</h4>
-              <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
-                  Download
+              <button type="submit" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+               Download
             </button>
               </div>
           </div>

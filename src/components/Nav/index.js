@@ -40,6 +40,17 @@ function Nav(props) {
                     About
           </li>
         </NavLink>
+
+        <NavLink exact to='/resume' activeClassName="active" className="nav-links">
+        <li className="mx-2">
+          <i class="bi-file-earmark-arrow-down"></i>
+                    Resume
+          </li>
+        </NavLink> 
+
+        <div class="vr"></div>
+        
+        
           
         <NavLink exact to='/contact' activeClassName="active" className="nav-links">
         <li className="mx-2">
@@ -47,6 +58,10 @@ function Nav(props) {
                     Contact
           </li>
         </NavLink> 
+
+        
+
+        
           
         </ul>
       </nav>

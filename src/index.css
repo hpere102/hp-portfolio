@@ -399,6 +399,13 @@ a {
   font-size: 15px;
 }
 
+.bi-file-earmark-arrow-down {
+  position: relative;
+  top:1px;
+  align-self: center;
+  font-size: 15px;
+}
+
 .work-cont {
   display: flex;
   flex-direction: column;
@@ -567,4 +574,14 @@ a {
   width: 200px;
   align-self: center;
   
+}
+
+
+.vr {
+  height: 30px;
+  display: flex;
+  position: relative;
+  top: 7px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
