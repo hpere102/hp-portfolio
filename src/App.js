@@ -5,6 +5,7 @@ import ContactForm from './components/Contact';
 import Home from './components/Home';
 import Work from './components/Work';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 import {
   BrowserRouter as Router,
   Routes,
@@ -35,6 +36,8 @@ function App() {
         <Route exact path='/work' element={<Work currentCategory={currentCategory}></Work>}>
         </Route>
         <Route exact path='/about' element={<About/>}>
+        </Route>
+        <Route exact path='/resume' element={<Resume/>}>
         </Route>
         <Route exact path='/contact' element={<ContactForm/>}>
         </Route>    

@@ -6,19 +6,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function About() {
   return (
-    <section className="about-cont">
-      <div className="bio">
-        <div className="bio-title">
-        <h1 id="about">About Me</h1>
-        <hr class="my-4"></hr>
-        <p class="lead"></p>
+    <section className="about-resume-cont">
+        <div className="bio-resume">
+          <div className="bio-resume-title">
+          <h1 id="about">About Me</h1>
+          <hr class="my-4"></hr>
+          <p class="lead"></p>
+          </div>
+          <p class="lead">My name is Hector Perez and i am a full stack </p>
         </div>
-        <p class="lead">My name is Hector Perez and i am a full stack </p>
-      </div>
-      <div className="bio-img">
-      <img className="cat-img" src={Cat} />
-      </div>
-    </section>
+        <div className="bio-resume-img">
+        <img className="cat-resume-img" src={Cat} />
+        </div>
+      </section>
   );
 }
 

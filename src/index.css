@@ -415,7 +415,7 @@ a {
   
 }
 
-.about-cont {
+.about-resume-cont {
   display: flex;
   flex-direction: row;
   margin-top: 100px;
@@ -426,22 +426,34 @@ a {
   gap: 100px;
 }
 
-.bio {
+.bio-resume {
   display: flex;
   flex-direction: column;
   text-align: center;
 
 }
 
-.bio-title {
+.resume {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.bio-resume-title {
   margin-left: var(--spacing-left);
   margin-right: var(--spacing-right);
 }
 
 
 
-.cat-img {
+.cat-resume-img {
   height: 500px;
+}
+
+.resume-img {
+  height:610px ;
+  width: 470px;
 }
 
 .contact-cont {
@@ -569,7 +581,7 @@ a {
 
 }
 
-.resume-cont button {
+.resume-cont a {
   margin-top: 20px;
   width: 200px;
   align-self: center;

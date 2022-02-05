@@ -60,9 +60,7 @@ function ContactForm() {
             </div>
             <div className="resume-cont">
               <h4>Want to view or download my resume?</h4>
-              <button type="submit" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
-               Download
-            </button>
+              <a  class="btn btn-primary btn-md" href="/resume" role="button">View Resume</a>
               </div>
           </div>
           
