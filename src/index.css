@@ -4,9 +4,6 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -302,6 +299,10 @@ textarea {
   margin-bottom: 70px;
   position: relative;
   left: 8px;
+}
+
+.modalTitle {
+  color: #fafafa;
 }
 
 .modal-buttons {

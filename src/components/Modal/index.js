@@ -21,7 +21,7 @@ function Modal({ onClose, currentPhoto}) {
                 '_blank' 
               );
                }}
-                > See project on GitHub</button>
+                > View on GitHub</button>
         </div>
         </div>
       </div>

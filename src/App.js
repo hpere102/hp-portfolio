@@ -20,7 +20,7 @@ function App() {
   const [categories] = useState([
     {
       name: 'projects',
-      description: 'Applications made with JS',
+      description: '',
     }
   ]);
 

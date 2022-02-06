@@ -13,7 +13,7 @@ function About() {
           <hr class="my-4"></hr>
           <p class="lead"></p>
           </div>
-          <p class="lead">My name is Hector Perez and i am a full stack </p>
+          <p class="lead">My name is Hector Perez and i am a full stack developer.  </p>
         </div>
         <div className="bio-resume-img">
         <img className="cat-resume-img" src={Cat} />
