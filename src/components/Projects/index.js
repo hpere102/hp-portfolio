@@ -9,77 +9,77 @@ const Projects = ({ category }) => {
       name: 'Budget Tracker',
       category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript',
+      language: 'JS / Node / Express / HTML / CSS',
       github: 'https://github.com/hpere102/budget-tracker'
     },
     {
       name: 'Social Network API',
       category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript',
+      language: 'JS / Node / Express / MongoDB',
       github: 'https://github.com/hpere102/social-network-api'
     },
     {
       name: 'Employee Database',
       category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript',
+      language: 'JS / Node',
       github: 'https://github.com/hpere102/employee-tracker'
     },
     {
       name: 'Weather Dashbaord',
       category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript',
+      language: 'JS / HTML / CSS ',
       github: 'https://github.com/hpere102/weather-dashboard'
     },
     {
       name: 'Scheduler',
       category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript',
+      language: 'JS / HTML / CSS',
       github: 'https://github.com/hpere102/work-day-scheduler'
     },
     {
       name: 'Tech Blog',
       category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript',
+      language: 'JS / Node / Express / HTML / mySQL / HB / CSS ',
       github: 'https://github.com/hpere102/tech-blog'
     },
     {
       name: 'E-commerce API',
       category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript',
+      language: 'JS / Node / Express / mySQL',
       github: 'https://github.com/hpere102/e-commerce'
-    },
-    {
-      name: 'Password Generator',
-      category: 'projects',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript',
-      github: 'https://github.com/hpere102/password-generator'
     },
     {
       name: 'CLI Team Generator',
       category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript',
+      language: 'JS / Node / ',
+      github: 'https://github.com/hpere102/password-generator'
+    },
+    {
+      name: 'Password Generator',
+      category: 'projects',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      language: 'JS / HTML / CSS',
       github: 'https://github.com/hpere102/team-profile-generator'
     },
     {
       name: 'Coding Quiz',
       category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript',
+      language: 'JS / HTML / CSS',
       github: 'https://github.com/hpere102/code-quiz'
     },
     {
       name: 'README Generator',
       category: 'projects',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      language: 'Javascript',
+      language: 'JS / Node',
       github: 'https://github.com/hpere102/README-generator'
     }
   ]);
@@ -111,7 +111,7 @@ const Projects = ({ category }) => {
             onClick={() => toggleModal(image, i)}
             key={image.name}
           />
-          <p className="image-text">{image.name} <br></br> {image.language} </p>
+          <p className="image-text">{image.name} <br></br> <span>{image.language}</span></p>
        </div>
         ))}
         

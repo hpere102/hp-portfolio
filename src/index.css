@@ -299,6 +299,7 @@ textarea {
   margin-bottom: 70px;
   position: relative;
   left: 8px;
+  width: 300px;
 }
 
 .modalTitle {
@@ -597,4 +598,9 @@ a {
   top: 7px;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+span {
+  font-size: 15px;
+  
 }
