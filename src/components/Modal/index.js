@@ -3,6 +3,8 @@ import React from 'react';
 function Modal({ onClose, currentPhoto}) {
     const {name, category, description, index, language, github} = currentPhoto;
 
+    
+    
     return (
         <div className="modalBackdrop">
         <div className="modalContainer">
@@ -11,7 +13,7 @@ function Modal({ onClose, currentPhoto}) {
         <p>{description}</p>
         <p>{language}</p>
         <div class="modal-buttons">
-          <button onClick={onClose} type="button">Close this modal</button>
+          <button onClick={onClose} type="button">Close</button>
           <button
             type="button"
             onClick={(e) => {
