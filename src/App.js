@@ -9,7 +9,8 @@ import Resume from './components/Resume';
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
+  Redirect
 }  from "react-router-dom";
 
 
@@ -40,7 +41,10 @@ function App() {
         <Route exact path='/resume' element={<Resume/>}>
         </Route>
         <Route exact path='/contact' element={<ContactForm/>}>
-        </Route>    
+        </Route>   
+
+        <Route path="*" element={<Home/>} />
+
      </Routes>  
      <Footer />   
     </Router>
