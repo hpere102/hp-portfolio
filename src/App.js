@@ -31,7 +31,7 @@ function App() {
     <Router>
      <Nav />
       <Routes>
-      <Route exact path='/' element={<Home/>}>
+      <Route exact path='/hp-portfolio' element={<Home/>}>
         </Route>
         <Route exact path='/work' element={<Work currentCategory={currentCategory}></Work>}>
         </Route>
