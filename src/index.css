@@ -604,3 +604,14 @@ span {
   font-size: 15px;
   
 }
+
+.link-edit {
+  text-decoration: none;
+  color: #fff;
+  font-weight: var(--light);
+}
+
+.link-edit:hover {
+  color: #fff;
+  text-decoration: none;
+}

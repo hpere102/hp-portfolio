@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -9,7 +10,9 @@ function Home() {
   <h3 class="lead">Full stack developer based in Miami, Florida.</h3>
   <hr class="my-4"></hr>
   <p class="lead">
-    <a  class="btn btn-primary btn-lg" href="/work" role="button">View Projects</a>
+    <a  class="btn btn-primary btn-lg" href="/work" role="button">
+    <Link exact to='work' className="link-edit">View Projects</Link>
+    </a>
   </p>
       </section>
     );

@@ -2,6 +2,7 @@ import React, { useState,  } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 
 function ContactForm() {
@@ -60,7 +61,9 @@ function ContactForm() {
             </div>
             <div className="resume-cont">
               <h4>Want to view or download my resume?</h4>
-              <a  class="btn btn-primary btn-md" href="/resume" role="button">View Resume</a>
+              <a  class="btn btn-primary btn-md" href="/resume" role="button">
+              <Link exact to='/resume' className="link-edit">View Resume</Link>
+              </a>
               </div>
           </div>
           

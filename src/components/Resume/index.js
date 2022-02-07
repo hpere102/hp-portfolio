@@ -12,7 +12,7 @@ function Resume() {
           <p class="lead"></p>
           </div>
           <p class="lead"> </p>
-          <a href="resume.pdf" class="btn btn-primary btn-md" role="button" download>Download my Resume!</a>
+          <a href="resume.pdf" target="_blank" class="btn btn-primary btn-md" role="button" download>Download my Resume!</a>
         </div>
         <div className="bio-resume-img">
         <img className="resume-img" src={ResumeImage} />

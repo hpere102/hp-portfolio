@@ -9,8 +9,7 @@ import Resume from './components/Resume';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Redirect
+  Route
 }  from "react-router-dom";
 
 

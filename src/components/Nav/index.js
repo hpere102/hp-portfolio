@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 import "bootstrap-icons/font/bootstrap-icons.css";
 
